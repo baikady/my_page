@@ -1857,7 +1857,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+	}
   }
+  .contact-link:visited {
+  color: var(--white-1);
+}
 
   .contact-info :is(.contact-link, time, address) {
     --fs-7: 14px;
