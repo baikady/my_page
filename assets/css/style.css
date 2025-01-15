@@ -336,6 +336,7 @@ main {
   border-radius: 20px;
 }
 
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -1859,7 +1860,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-overflow: ellipsis;
 	}
   }
-  .contact-link:visited {
+  .contact-link:any-link {
   color: var(--white-1);
 }
 
